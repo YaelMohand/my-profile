@@ -1,0 +1,50 @@
+body {
+	background: rgb(230,230,230);
+	color: rgb(50,50,50);
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+	font-weight: bolder;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+	transition: color 0.4s ease;
+	font-weight: bold;
+}
+
+a:hover {
+	color: rgb(100, 100, 100);
+}
+
+.logo-reseaux {
+	list-style: none;
+	display: inline-flex;
+	padding-left: 6px;
+	font-size:50px
+}
+
+#introduce {
+	list-style: none
+}
+
+#Abilities {
+	list-style: none
+}
+
+.certes {
+	width: 510px;
+	margin: 4px auto
+}
+
+@media (max-width: 510px) {
+	.certes {
+		width: 200px;
+	}
+}
